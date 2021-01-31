@@ -1,25 +1,30 @@
 # MongoDB
-<sup>MongoDB 발표내용</sup>
-![](./img/MongoDB_page-0001.jpg)
-![](./img/MongoDB_page-0002.jpg)
-![](./img/MongoDB_page-0003.jpg)
-![](./img/MongoDB_page-0004.jpg)
-![](./img/MongoDB_page-0005.jpg)
-![](./img/MongoDB_page-0006.jpg)
-![](./img/MongoDB_page-0007.jpg)
-![](./img/MongoDB_page-0008.jpg)
-![](./img/MongoDB_page-0009.jpg)
-![](./img/MongoDB_page-0010.jpg)
-![](./img/MongoDB_page-0011.jpg)
-![](./img/MongoDB_page-0012.jpg)
-![](./img/MongoDB_page-0013.jpg)
-
-![](./img/MongoDB_page-0015.jpg)
-![](./img/MongoDB_page-0016.jpg)
-![](./img/MongoDB_page-0017.jpg)
-![](./img/MongoDB_page-0018.jpg)
-![](./img/MongoDB_page-0019.jpg)
-![](./img/MongoDB_page-0020.jpg)
-![](./img/MongoDB_page-0021.jpg)
-![](./img/MongoDB_page-0022.jpg)
-![](./img/MongoDB_page-0023.jpg)
+<sup>MongoDB 발표내용</sup>  
+## ReplicaSet
+![](./img/Slide1.jpg)
+![](./img/Slide2.jpg)
+## Sharding
+![](./img/Slide3.jpg)
+![](./img/Slide4.jpg)
+![](./img/Slide5.jpg)
+![](./img/Slide6.jpg)
+## 서버구조
+![](./img/Slide7.jpg)
+![](./img/Slide8.jpg)
+![](./img/Slide9.jpg)
+![](./img/Slide10.jpg)
+![](./img/Slide11.jpg)
+![](./img/Slide12.jpg)
+![](./img/Slide13.jpg)
+## 시스템 동작원리 - replica set
+![](./img/Slide15.jpg)
+![](./img/Slide16.jpg)
+## 시스템 동작원리 - config server
+![](./img/Slide17.jpg)
+![](./img/Slide18.jpg)
+## 시스템 동작원리 - mongos
+![](./img/Slide19.jpg)
+![](./img/Slide20.jpg)
+![](./img/Slide21.jpg)
+![](./img/Slide22.jpg)
+![](./img/Slide23.jpg)
