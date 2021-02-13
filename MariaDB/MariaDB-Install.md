@@ -60,11 +60,6 @@ MariaDB > show variables like 'char%';
 ### 5. MariaDB 서버 방화벽 추가 및 외부접속 허용
 [방화벽]
 ~~~
-sudo chkconfig iptables off
-sudo chkconfig --list | grep iptables
-sudo service iptables stop
-
-===
 현재 리눅스에서 열려있는 포트 확인
 $ netstat -tnlp
 #TCP 중에서(t), Listening상태[열린포트]인 애들만(l), 상세정보까지(p), 10진수 숫자로(n) 표기
