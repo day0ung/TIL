@@ -50,6 +50,26 @@ mysqldump -uroot jdy_db TABLE_NAME --where="REG_DT >='2022-01-01' AND REG_DT < '
 
 스키마 덤프 후에 실행 할 수 있다.
 
-$vi 덤프파일명.sql
+$vi 덤프파일명.sql  
+<code> :%s/AUTO_INCREMENT=\+[0-9]\+/AUTO_INCREMENT=1 </code>  
+입력 후 엔터
 
-:%s/AUTO_INCREMENT=\+[0-9]\+/AUTO_INCREMENT=1 입력 후 엔터
+---
+## Schema dump
+1. 해당 db서버의 mysql dir에서 스키마덤프뜰 db명   
+~~~
+mysqldump -R -u root -p -d jdy_db(디비명) > backup.sql
+~~~  
+
+2. 생성된 dump.sql의 auto_increment 초기화
+
+3. 스키마를 생성할 DB에 dump.sql을 restore
+~~~
+mysql db_name < backup.sql
+~~~
+
+dump시 프로시져까지 덤프를 하려면 -R명령어를 추가한다.  
+ (참고 url: https://xinet.kr/?p=2675) 
+
+-u 유저, -p 패스워드, 
+-d 스키마(Schema)만 덤프시 / 이렇게 스키마만 dump를 할 수 있다. 
