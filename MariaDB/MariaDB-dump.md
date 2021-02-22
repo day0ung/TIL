@@ -65,7 +65,11 @@ mysqldump -R -u root -p -d jdy_db(디비명) > backup.sql
 
 3. 스키마를 생성할 DB에 dump.sql을 restore
 ~~~
-mysql db_name < backup.sql
+# db생성을 먼저 해주어야한다.
+CREATE DATABASE db_new DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; 
+
+#restore
+mysql db_new < backup.sql
 ~~~
 
 dump시 프로시져까지 덤프를 하려면 -R명령어를 추가한다.  
