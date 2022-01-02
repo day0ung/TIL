@@ -50,8 +50,7 @@ vi /etc/zabbix/zabbix_agentd.conf
 |Server=Zabbix Server IP (=132.226.231.171) |  Server=132.226.231.171| 
 | ServerActive=Zabbix Server IP:10051 (=132.226.231.171) | ServerActive=132.226.231.171
 | Hostname=(=client_Name) | Hostname=my-db (*Agent 의 HostName 을 입력. 서버에서 표시 될 Hostname)
-
-* ![](./img/zabbix.png)
+| 예시) vi 로 수정| ![](./img/zabbix.png)|
 
 ### 7. 자빅스 홈페이지에 추가하기
 1.  자빅스 페이지에서 좌측 상단에 설정(Configuration) -> 호스트(하위메뉴)(Hosts) -> (우상단)호스트 작성(Create host)
