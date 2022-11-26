@@ -29,7 +29,7 @@ Bitbucket webhook을 jenkins에서 변화를 감지하고 알아서 소스코드
 
 ## 2. Webhook 설정 (Bitbucket / MS Teams)
 **Bitbucket** WebHook설정
-![](./img/addwebhook.png)
+<img src="./img/addwebhook.png"  height="150">  
 webhook을 설정하는 화면에서  
 * title 입력(본인이 원하는 이름)
 * url 입력 (http://{jenkins가 설치되어있는 서버 ip}:8080/bitbucket-webhook/)
@@ -45,10 +45,10 @@ save 버튼을 클릭
 <a href="https://confluence.curvc.com/pages/releaseview.action?pageId=109641795"> 팀즈 Bitbucket 연동 </a>
 
  팀즈에서 Connector 구성
- * ![](./img/connectors.png)
+ * <img src="./img/connectors.png"  height="100">
 
 팀즈에서 구성된 Jenkins의 Webhook URL을 3에서 넣어주어야한다 
- * ![](./img/teams_jenkins.png)
+ * <img src="./img/teams_jenkins.png"  height="200">
 </br>
 </br>
 
