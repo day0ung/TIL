@@ -36,7 +36,7 @@ webhook을 설정하는 화면에서
 save 버튼을 클릭
 
 
-![](./img/bitbucket.png)
+![](./img/bitbucket.png)  
 <sup> 모두완료된 화면(회사repo라 주소는 가림)</sup>
 
 
