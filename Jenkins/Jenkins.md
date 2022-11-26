@@ -77,4 +77,4 @@ save 버튼을 클릭
 <sup> 대시보드화면, 파란불이 실행되고있는거</sup>
 
  ![](./img/end.png)
- <sup> commit -> pull request로 마스터로병합 -> 변경감지 후 젠킨스 빌드 (팀즈에서 알림이온다) </sup>
+ <sup>로컬에서 수정한 코드 commit -> develope -> pull request로 마스터로병합 -> 변경감지 후 젠킨스 빌드 (팀즈에서 알림이온다) </sup>
